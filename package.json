@@ -1,11 +1,12 @@
 {
   "name": "make-models",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI to create the models templates and folder automatically",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make-models test tester testee"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "J. Austin Tsiaperas <jatsiaperas@gmail.com>",
+  "license": "ISC",
+  "bin": "cli.js"
 }
